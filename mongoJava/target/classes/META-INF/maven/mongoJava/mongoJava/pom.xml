@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>mongoJava</groupId>
+  <artifactId>mongoJava</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+    <dependency>
+        <groupId>org.mongodb</groupId>
+        <artifactId>mongodb-driver-sync</artifactId>
+        <version>5.0.1</version>
+    </dependency>
+
+    <!-- Use SLF4J API version 1.7.x or later -->
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>1.7.32</version> <!-- Use a compatible version -->
+    </dependency>
+
+    <!-- Use Logback for logging -->
+    <dependency>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+        <version>1.2.6</version> <!-- Use a compatible version -->
+        <!-- Remove the <scope> tag or set it to 'compile' -->
+    </dependency>
+    <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-controls</artifactId>
+        <version>22</version> <!-- Use the appropriate version -->
+    </dependency>
+    <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-fxml</artifactId>
+        <version>22</version> <!-- Use the appropriate version -->
+    </dependency>
+        <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-graphics</artifactId>
+        <version>22</version> <!-- Use the appropriate version -->
+    </dependency>
+        <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-base</artifactId>
+        <version>22</version> <!-- Use the appropriate version -->
+    </dependency>
+    
+    <!-- Add other JavaFX dependencies if needed -->
+
+    <!-- Optional: Use Log4j SLF4J implementation -->
+    <!-- <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-slf4j-impl</artifactId>
+        <version>2.14.1</version>  Replace with the latest version 
+    </dependency> -->
+</dependencies>
+</project>
